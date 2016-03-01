@@ -1,0 +1,30 @@
+@import "variables";
+@import "bootstrap";
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #FAFAFA;
+}
+
+.app-footer {
+  font-size: .9em;
+}
+
+.copyright {
+  text-align: center;
+}
+
+.navbar {
+  font-weight: 300;
+  border-bottom: none; // override bootstrap
+  box-shadow: 0 0 1px 1px rgba(0,0,0,.15);
+  background: #FFFFFF;
+
+}
+
+.navbar-brand {
+  font-weight: 700;
+  small {
+    font-size: .7em;
+  }
+}
